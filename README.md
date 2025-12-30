@@ -1,12 +1,14 @@
-📱 SIM-Based Mobile Phone Simulation using Java Interfaces:
+📱 SIM-Based Mobile Phone Simulation using Java Interfaces:-
 
-📌 Project Overview:
+📌 Project Overview:-
 -This Java mini project demonstrates the real-world use of Interfaces, Abstraction, Polymorphism, and Loose Coupling by simulating how a mobile phone works with different SIM
 cards (Jio, Airtel, BSNL, Vi).
+
 -The project follows clean Object-Oriented Programming (OOP) principles, where the mobile phone is independent of specific network providers and interacts with them through interfaces.
 
 🎯 Objectives:
 -Understand interface-driven development
+
 -Implement runtime polymorphism
 -Demonstrate loose coupling between components
 -Simulate real-life mobile & SIM behavior using Java
