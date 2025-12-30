@@ -1,154 +1,46 @@
-📱 SIM-Based Mobile Phone Simulation using Java Interfaces:-
+SIM-Based Mobile Phone Simulation in Java
+Overview
 
-📌 Project Overview:-
+A Core Java mini project demonstrating interface-based design by simulating a mobile phone interacting with different SIM cards. The project focuses on abstraction, polymorphism, and loose coupling, allowing SIM providers to be switched at runtime without modifying mobile code.
 
--This Java mini project demonstrates the real-world use of Interfaces, Abstraction, Polymorphism, and Loose Coupling by simulating how a mobile phone works with different SIM
-cards (Jio, Airtel, BSNL, Vi).
+Key Features
 
--The project follows clean Object-Oriented Programming (OOP) principles, where the mobile phone is independent of specific network providers and interacts with them through interfaces.
+Interface-driven architecture
 
-🎯 Objectives:
+Dynamic SIM insertion and removal
 
--Understand interface-driven development
+Support for multiple providers (Jio, Airtel, BSNL, Vi)
 
--Implement runtime polymorphism
+SIM activation and deactivation
 
--Demonstrate loose coupling between components
+Call and message simulation with network identification
 
--Simulate real-life mobile & SIM behavior using Java
+Technologies Used
 
-🛠️ Technologies Used:
+Java (Core Java, JDK 8+)
 
-Language:
+Object-Oriented Programming
 
--Java (Core Java)
-
-Concepts:
-
--Interfaces
-
--Abstraction
-
--Polymorphism
-
--Encapsulation
-
-IDE: 
-
--Eclipse / IntelliJ IDEA
-
--Java Version: JDK 8+
-
-📂 Project Structure:
-
+Project Structure
 com.interfaceproject
-│
-├── TestMobile.java 
-// Main test class
-├── MobilePhone.java 
-// Mobile interface
+├── TestMobile.java
+├── MobilePhone.java
 ├── SIMInterface.java
-// SIM interface
-│
-├── Samsung.java  
-// Mobile implementation
-│
-├── Jio.java   
-// SIM implementation
-├── Airtel.java 
-// SIM implementation
-├── BSNL.java  
-// SIM implementation
-├── Vi.java 
-// SIM implementation
+├── Samsung.java
+├── Jio.java
+├── Airtel.java
+├── BSNL.java
+└── Vi.java
 
-⚙️ Features:
+How to Run
 
--Insert and remove SIM card dynamically
+Clone the repository
 
--Supports multiple network providers
+Open in Eclipse or IntelliJ IDEA
 
--SIM activation & deactivation handling
+Run TestMobile.java
 
--Make calls and send messages
+Author
 
--Random phone number generation
-
--Network provider identification during calls/messages
-
-
-🔄 How It Works:
-
--A MobilePhone interface defines mobile actions.
-
--A SIMInterface defines SIM-related behavior.
-
--Each SIM provider implements SIMInterface.
-
--The Samsung class implements MobilePhone.
-
--At runtime, any SIM can be inserted into the phone.
-
--Mobile operations work without knowing SIM implementation details.
-
-
-▶️ Sample Output:
-
--BSNL SIM activated
-
-S-IM is inserted
-
--Your phone number is : 9189XXXXXXXX
-
--Network provider : BSNL
-
--Making a call to 6789567567
-
--Network provider : BSNL
-
--Sending Good Morning!! to 9090898989
-
--BSNL SIM deactivated
-
--SIM is removed.
-
-
-💡 Key OOP Concepts Demonstrated:
-
--Interface-based Programming
-
--Loose Coupling
-
--Runtime Polymorphism
-
--Separation of Concerns
-
--Code Reusability & Scalability
-
-
-🚀 How to Run:
--Clone the repository
-
--Open the project in Eclipse or IntelliJ IDEA
-
--Run TestMobile.java
-
-
-📈 Future Enhancements:
-
--Dual SIM support
-
--Call duration & balance tracking
-
--Internet data simulation
-
--Exception handling improvements
-
--Logging instead of System.out.println
-
-
-👨‍💻 Author:
-
--Durgesh Tiwari
-
--Java Developer | Learning Backend & OOP Design
+Durgesh Tiwari
+Java Developer | OOP Fundamentals
