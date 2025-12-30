@@ -55,8 +55,8 @@ This project is designed to strengthen understanding of **interfaces, inheritanc
 ---
 
 ## ▶️ How to Run
-1. Clone the repository
-   ```bash
+- Clone the repository
+
 -Open the project in any Java IDE (IntelliJ, Eclipse, VS Code)
 
 -Compile and run the TestMobile.java file
@@ -78,4 +78,6 @@ This project is designed to strengthen understanding of **interfaces, inheritanc
 ##👨‍💻 Author:
 
 -Durgesh Tiwari
--Java Developer | OOP Enthusiast | Fresher
+-Java Developer 
+-| OOP Enthusiast 
+-| Fresher
