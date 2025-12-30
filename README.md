@@ -19,8 +19,11 @@ Language:
 
 Concepts:
 -Interfaces
+
 -Abstraction
+
 -Polymorphism
+
 -Encapsulation
 
 IDE: 
