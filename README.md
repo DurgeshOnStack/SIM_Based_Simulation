@@ -63,8 +63,9 @@ This project is designed to strengthen understanding of **interfaces, inheritanc
 
 -Observe SIM behavior based on selected operator
 
+---
 
-com.interfaceproject
+##com.interfaceproject
 -│── Sim.java
 -│── Jio.java
 -│── Airtel.java
@@ -72,7 +73,9 @@ com.interfaceproject
 -│── Samsung.java
 -│── TestMobile.java
 
-👨‍💻 Author:
+---
+
+##👨‍💻 Author:
 
 -Durgesh Tiwari
 -Java Developer | OOP Enthusiast | Fresher
